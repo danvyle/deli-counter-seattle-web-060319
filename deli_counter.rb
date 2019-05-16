@@ -19,7 +19,7 @@ def take_a_number(array, string)
   puts "Welcome, #{string}. You are number #{array.index(string)+1} in line."
 end 
 
-def now_serving(array, string)
+def now_serving(array)
   array.empty?
     puts "There is nobody waiting to be served!"
   if array length > 0
