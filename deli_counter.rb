@@ -21,13 +21,12 @@ def take_a_number(array, string)
  puts "#{string}, your position is #{position}"
 end
 
-def now_serving(array)
-  while array.length > 0
-    puts "The next person in line is #{array[0]}"
-    array.shift
-    end
+def now_serving(array, string)
   if array.empty?
     puts "There is nobody waiting to be served!"
+  else
+    puts "Welcome #{string}, You are number #{array.length} in line."
+    array.shift
   end
 end
 # def take_a_number_method(array, string)
