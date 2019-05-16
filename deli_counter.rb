@@ -19,6 +19,7 @@ def take_a_number(array, string)
   index_place = array.index(string)
   position = index_place.to_i + 1
   puts "Welcome #{string}, You are number #{position} in line"
+  return string, position
 end
 
 def now_serving(array, string)
@@ -29,13 +30,3 @@ def now_serving(array, string)
     array.shift
   end
 end
-# def take_a_number_method(array, string)
-#   array.each do 
-#     "Welcome, #{arrayname}. You are number #{#} in line."
-# end
-
-# def now_serving
-#   puts "next person in line"
-#   array.unshift 
-#   "There is nobody waiting to be served"
-# end
