@@ -14,12 +14,12 @@ def line(array)
   end
 end
 
-def take_a_number(array, string)
-  array.push(string)
-  index_place = array.index(string)
-  # position = index_place.to_i + 1
-  puts "Welcome #{string}, You are number #{array.index(name)+1)} in line"
-end
+def take_a_number(array, name)
+  array.push(name)
+  position = array.index(name)
+  puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
+  # return name, position 
+end 
 
 # def now_serving(array, string)
 #   if array.empty?
