@@ -15,10 +15,10 @@ def line(array)
 end
 
 def take_a_number(array, string)
- array << string
- index_place = array.index(string)
- position = index_place.to_i + 1
- puts "#{string}, your position is #{position}"
+  array << string
+  index_place = array.index(string)
+  position = index_place.to_i + 1
+  puts "#{string}, your position is #{position}"
 end
 
 def now_serving(array, string)
